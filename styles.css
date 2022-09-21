@@ -97,6 +97,10 @@ main {
     margin-right: .5em;
 }
 
+.eth-img{
+    width: 10px;
+}
+
 .accent {
     color: var(--accent-color);
 }
@@ -104,6 +108,18 @@ main {
 .secundary {
     color: var(--secundary-color);
 }
+
+@media (max-width: 350px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accent {
+        margin-bottom: .5em;
+    }
+}
+
 
 .made-by {
     display: flex;
