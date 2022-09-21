@@ -1,10 +1,10 @@
 *, 
 ::after,
-::before{
+::before {
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --main-bg-color: hsl(217, 54%, 11%);
     --card-bg-color: hsl(216, 50%, 16%);
     --line-color: hsl(215, 32%, 27%);
@@ -48,7 +48,7 @@ main {
     border-radius: 1em;
 }
 
-.view-icon{
+.view-icon {
     width: 60px;
     opacity: 0;
     position: absolute;
@@ -56,29 +56,29 @@ main {
     left: 40%;
 }
 
-.imgs-container:hover .view-icon{
+.imgs-container:hover .view-icon {
     opacity: 1;
 }
 
-.imgs-container:hover .main-image{
+.imgs-container:hover .main-image {
     opacity: .5;
 }
 
-.main-title{
+.main-title {
     font-size: 1.25rem;
     margin-bottom: 0.2em;
     cursor: pointer;
 }
-.main-title:hover{
+.main-title:hover {
     color: var(--accent-color);
 }
 
-.main-description{
+.main-description {
     color: var(--secundary-color);
     font-weight: 300;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1em;
@@ -86,17 +86,17 @@ main {
     font-size: 0.875rem;
 }
 
-.center-items{
+.center-items {
     display: flex;
     align-items: center;
 }
 
-.icon{
+.icon {
     width: 15px;
     margin-right: .5em;
 }
 
-.accent{
+.accent {
     color: var(--accent-color);
 }
 
@@ -111,11 +111,11 @@ main {
     font-weight: 300;
 }
 
-.accent-hover{
+.accent-hover {
     cursor: pointer;
 }
 
-.accent-hover:hover{
+.accent-hover:hover {
     color: var(--accent-color);
 }
 
